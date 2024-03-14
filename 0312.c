@@ -7,6 +7,7 @@ int main(void) {
     int sum = 0; // 소수의 합을 저장할 변수
     for (int i = 2; i <= 100; i++) { // 0과 1은 소수가 아니므로 2부터 시작
         if (isPrime(i)) { // i가 소수인 경우
+            printf("%d ", i); // 출력
             sum += i; // 합산
         }
     }
